@@ -1,4 +1,4 @@
-# jbook-data
+# lsj-data
 
 Contains data files for:
 
