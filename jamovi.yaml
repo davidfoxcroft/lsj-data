@@ -6,7 +6,7 @@ jms: '1.0'
 authors:
   - Danielle Navarro
   - David Foxcroft
-maintainer: David Foxcroft <david.foxcroft@brookes.ac.uk>
+maintainer: David Foxcroft <david.foxcroft@gmail.com>
 date: '2018-09-18'
 description: >
   This module provides examples data sets to accompany the book
