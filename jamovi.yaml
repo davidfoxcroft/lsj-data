@@ -1,0 +1,87 @@
+---
+title: learning statistics with jamovi
+name: lsj-data
+version: '1.0.0'
+jms: '1.0'
+authors:
+  - Danielle Navarro
+  - David Foxcroft
+maintainer: David Foxcroft <david.foxcroft@brookes.ac.uk>
+date: '2018-09-18'
+description: >
+  This module provides examples data sets to accompany the book
+  <a href="https://sites.google.com/brookes.ac.uk/learning-stats-with-jamovi">
+  learning statistics with jamovi</a>.
+analyses: [ ]
+datasets:
+  - name: AFL Margins
+    path: 04_00_aflsmall_margins.csv
+    description: Ch 04
+    tags: [ Desc ]
+  - name: AFL Finalists
+    path: 04_01_aflsmall_finalists.csv
+    description: Ch 04
+  - name: Clinical Trial
+    path: 04_04_clinicaltrial.csv
+    description: Ch 04
+  - name: AFL Margins By Year
+    path: 05_02_aflsmall2.csv
+    description: Ch 05
+  - name: Night Garden
+    path: 06_01_nightgarden.csv
+    description: Ch 06
+  - name: Likert
+    path: 06_03_likert.omv
+    description: Ch 06
+  - name: IQ sim
+    path: 08_02_IQsim.omv
+    description: Ch 08
+  - name: Binomial Test
+    path: 09_07_binomialtest.omv
+    description: Ch 09
+  - name: Randomness
+    path: 10_01_randomness.csv
+    description: Ch 10
+  - name: Chapek 9
+    path: 10_02_chapek9.omv
+    description: Ch 10
+  - name: Salem
+    path: 10_06_salem.csv
+    description: Ch 10
+  - name: AGPP
+    path: 10_07_agpp.csv
+    description: Ch 10
+  - name: Zeppo
+    path: 11_01_zeppo.csv
+    description: Ch 11
+  - name: Harpo
+    path: 11_03_harpo.csv
+    description: Ch 11
+  - name: Chico
+    path: 11_05_chico.csv
+    description: Ch 11
+  - name: Chico 2
+    path: 11_08_chico2.omv
+    description: Ch 11
+  - name: Awesome
+    path: 11_09_awesome.csv
+    description: Ch 11
+  - name: Happiness
+    path: 11_09_happiness.csv
+    description: Ch 11
+  - name: Anscombe
+    path: 12_01_anscombe.csv
+    description: Ch 12
+  - name: Parenthood
+    path: 12_01_parenthood.csv
+    description: Ch 12
+  - name: Clinical Trial 2
+    path: 14_05_clinicaltrial2.omv
+    description: Ch 14
+  - name: RTFM
+    path: 14_05_rtfm.csv
+    description: Ch 14
+  - name: Coffee
+    path: 14_09_coffee.csv
+    description: Ch 14
+...
