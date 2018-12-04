@@ -44,7 +44,7 @@ datasets:
     tags: [ Transformation ]
   - name: IQ sim
     path: IQsim.omv
-    description: "Ch 08; IQs of 10,000 people - randomly generated"
+    description: "Ch 08; IQs of 10,000 people"
     tags: [ Normal Distribution, Confidence Intervals ]
   - name: Binomial Test
     path: binomialtest.omv
