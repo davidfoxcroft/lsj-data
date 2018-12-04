@@ -45,7 +45,7 @@ datasets:
   - name: IQ sim
     path: IQsim.omv
     description: "Ch 08 - IQs of 10,000 people"
-    tags: [ Normal Distribution, Confidence Intervals ]
+    tags: [ Normal distribution, Confidence intervals ]
   - name: Binomial Test
     path: binomialtest.omv
     description: "Ch 09 - Test of two proportions"
@@ -61,7 +61,7 @@ datasets:
   - name: Salem
     path: salem.csv
     description: "Ch 10 - Witchcraft accusations"
-    tags: [ Fisher Exact ]
+    tags: [ Fisher exact ]
   - name: AGPP
     path: agpp.csv
     description: "Ch 10 - Australian Generic Political Party"
