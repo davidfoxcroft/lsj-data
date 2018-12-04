@@ -10,104 +10,104 @@ maintainer: David Foxcroft <david.foxcroft@gmail.com>
 date: '2018-09-18'
 description: >
   This module provides examples data sets to accompany the book
-  <a href="http://www.learnstatswithjamovi.com">
+  <a href="http://www.learnstatswithjamovi.com" target="_blank">
   learning statistics with jamovi</a>.
 analyses: [ ]
 datasets:
   - name: booksales
     path: booksales.csv
-    description: "Ch. 03; booksales data in csv format"
+    description: "Ch. 03 - Booksales data in csv format"
     tags: [ Descriptives ]
   - name: AFL Margins
     path: aflsmall_margins.csv
-    description: "Ch. 04; Australian Football League (AFL) winning margins"
+    description: "Ch. 04 - Australian Football League (AFL) winning margins"
     tags: [ Descriptives ]
   - name: AFL Finalists
     path: aflsmall_finalists.csv
-    description: "Ch. 04; Australian Football League (AFL) finalist teams"
+    description: "Ch. 04 - Australian Football League (AFL) finalist teams"
     tags: [ Descriptives ]
   - name: Clinical Trial
     path: clinicaltrial.csv
-    description: "Ch. 04, 13 & 14; clinical trial results"
+    description: "Ch. 04, 13 & 14 - Clinical trial results"
     tags: [ Descriptives, ANOVA, post-hoc ]
   - name: AFL Margins By Year
     path: aflsmall2.csv
-    description: "Ch 05; Australian Football League (AFL) winning margins by year"
+    description: "Ch 05 - Australian Football League (AFL) winning margins by year"
     tags: [ Descriptives ]
   - name: Night Garden
     path: nightgarden.csv
-    description: "Ch 06; Dialogue from 'In the Night Garden' TV show"
+    description: "Ch 06 - Dialogue from 'In the Night Garden' TV show"
     tags: [ Data manipulation ]
   - name: Likert
     path: likert.omv
-    description: "Ch 06; Likert scale  - dinosaurs are awesome"
+    description: "Ch 06 - Likert scale  - dinosaurs are awesome"
     tags: [ Transformation ]
   - name: IQ sim
     path: IQsim.omv
-    description: "Ch 08; IQs of 10,000 people"
+    description: "Ch 08 - IQs of 10,000 people"
     tags: [ Normal Distribution, Confidence Intervals ]
   - name: Binomial Test
     path: binomialtest.omv
-    description: "Ch 09; Test of two proportions"
+    description: "Ch 09 - Test of two proportions"
     tags: [ Binomial test ]
   - name: Randomness
     path: randomness.csv
-    description: "Ch 10; Random cards data"
+    description: "Ch 10 - Random cards data"
     tags: [ Chi-squared ]
   - name: Chapek 9
     path: chapek9.omv
-    description: "Ch 10; Chapek 9 TV show data"
+    description: "Ch 10 - Chapek 9 TV show data"
     tags: [ Chi-squared ]
   - name: Salem
     path: salem.csv
-    description: "Ch 10; Witchcraft accusations"
+    description: "Ch 10 - Witchcraft accusations"
     tags: [ Fisher Exact ]
   - name: AGPP
     path: agpp.csv
-    description: "Ch 10; Australian Generic Political Party"
+    description: "Ch 10 - Australian Generic Political Party"
     tags: [ McNemar ]
   - name: Zeppo
     path: zeppo.csv
-    description: "Ch 11; Student grades in Dr. Zeppo's class"
-    tags: [ T-test ]
+    description: "Ch 11 - Student grades in Dr. Zeppo's class"
+    tags: [ t-test ]
   - name: Harpo
     path: harpo.csv
-    description: "Ch 11 & 15; Student grades in Dr. Harpo's class"
-    tags: [ T-test, Bayes factor ]
+    description: "Ch 11 & 15 - Student grades in Dr. Harpo's class"
+    tags: [ t-test, Bayes factor ]
   - name: Chico
     path: chico.csv
-    description: "Ch 11 & 15; Student grades in Dr. Chico's class"
-    tags: [ T-test, Bayes factor ]
+    description: "Ch 11 & 15 - Student grades in Dr. Chico's class"
+    tags: [ t-test, Bayes factor ]
   - name: Chico 2
     path: chico2.omv
-    description: "Ch 11; Student grades in Dr. Chico's class"
+    description: "Ch 11 - Student grades in Dr. Chico's class"
     tags: [ Data manipulation ]
   - name: Awesome
     path: awesome.csv
-    description: "Ch 11; Comparing awesomeness of different groups"
+    description: "Ch 11 - Comparing awesomeness of different groups"
     tags: [ Mann-Whitney ]
   - name: Happiness
     path: happiness.csv
-    description: "Ch 11; Student happiness with statistics"
+    description: "Ch 11 - Student happiness with statistics"
     tags: [ Wilcoxon ]
   - name: Parenthood
     path: parenthood.csv
-    description: "Ch 12; Sleep and mood data"
+    description: "Ch 12 - Sleep and mood data"
     tags: [ correlation, regression ]
   - name: Anscombe
     path: anscombe.csv
-    description: "Ch 12; Anscombe's Quarter data"
+    description: "Ch 12 - Anscombe's Quarter data"
     tags: [ correlation ]
   - name: RTFM
     path: rtfm.csv
-    description: "Ch 14; Student grades by attendance and reading"
+    description: "Ch 14 - Student grades by attendance and reading"
     tags: [ ANOVA ]
   - name: Clinical Trial 2
     path: clinicaltrial2.omv
-    description: "Ch 14; Clinical trial results for binary contrasts"
+    description: "Ch 14 - Clinical trial results for binary contrasts"
     tags: [ ANOVA, contrasts ]
   - name: Coffee
     path: coffee.csv
-    description: "Ch 14; Coffee and babbling"
+    description: "Ch 14 - Coffee and babbling"
     tags: [ ANOVA, unbalanced ]
 ...
