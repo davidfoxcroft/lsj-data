@@ -121,17 +121,17 @@ datasets:
   - name: Personality Questionnaire
     path: bfi_sample.csv
     description: "Ch 15 - Personality data sample 1"
-    tags [ EFA, PCA ] 
+    tags: [ EFA, PCA ] 
   - name: Personality Questionnaire
     path: bfi_sample2.csv
     description: "Ch 15 - Personality data sample 2"
-    tags [ CFA ] 
+    tags: [ CFA ] 
   - name: Attributional Style Questionnaire
     path: ASQ.csv
     description: "Ch 15 - Attributional Style data"
-    tags [ MTMM, CFA ] 
+    tags: [ MTMM, CFA ] 
   - name: Personality Questionnaire
     path: bfi_sample3.csv
     description: "Ch 15 - Personality data sample 3"
-    tags [ Reliability analysis ] 
+    tags: [ Reliability analysis ] 
 ...
