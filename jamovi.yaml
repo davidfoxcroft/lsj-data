@@ -15,27 +15,27 @@ description: >
 analyses: [ ]
 datasets:
   - name: booksales
-    path: booksales.csv
-    description: "Ch. 03 - Booksales data in csv format"
+    path: booksales.omv
+    description: "Ch. 03 - Booksales data"
     tags: [ Descriptives ]
   - name: AFL Margins
-    path: aflsmall_margins.csv
+    path: aflsmall_margins.omv
     description: "Ch. 04 - Australian Football League (AFL) winning margins"
     tags: [ Descriptives ]
   - name: AFL Finalists
-    path: aflsmall_finalists.csv
+    path: aflsmall_finalists.omv
     description: "Ch. 04 - Australian Football League (AFL) finalist teams"
     tags: [ Descriptives ]
   - name: Clinical Trial
-    path: clinicaltrial.csv
+    path: clinicaltrial.omv
     description: "Ch. 04, 13 & 14 - Clinical trial results"
     tags: [ Descriptives, ANOVA, post-hoc ]
   - name: AFL Margins By Year
-    path: aflsmall2.csv
+    path: aflsmall2.omv
     description: "Ch 05 - Australian Football League (AFL) winning margins by year"
     tags: [ Descriptives ]
   - name: Night Garden
-    path: nightgarden.csv
+    path: nightgarden.omv
     description: "Ch 06 - Dialogue from 'In the Night Garden' TV show"
     tags: [ Data manipulation ]
   - name: Likert
@@ -51,7 +51,7 @@ datasets:
     description: "Ch 09 - Test of two proportions"
     tags: [ Binomial test ]
   - name: Randomness
-    path: randomness.csv
+    path: randomness.omv
     description: "Ch 10 - Random cards data"
     tags: [ Chi-squared ]
   - name: Chapek 9
@@ -59,23 +59,23 @@ datasets:
     description: "Ch 10 - Chapek 9 TV show data"
     tags: [ Chi-squared ]
   - name: Salem
-    path: salem.csv
+    path: salem.omv
     description: "Ch 10 - Witchcraft accusations"
     tags: [ Fisher exact ]
   - name: AGPP
-    path: agpp.csv
+    path: agpp.omv
     description: "Ch 10 - Australian Generic Political Party"
     tags: [ McNemar ]
   - name: Zeppo
-    path: zeppo.csv
+    path: zeppo.omv
     description: "Ch 11 - Student grades in Dr. Zeppo's class"
     tags: [ t-test ]
   - name: Harpo
-    path: harpo.csv
+    path: harpo.omv
     description: "Ch 11 & 15 - Student grades in Dr. Harpo's class"
     tags: [ t-test, Bayes factor ]
   - name: Chico
-    path: chico.csv
+    path: chico.omv
     description: "Ch 11 & 15 - Student grades in Dr. Chico's class"
     tags: [ t-test, Bayes factor ]
   - name: Chico 2
@@ -83,31 +83,31 @@ datasets:
     description: "Ch 11 - Student grades in Dr. Chico's class"
     tags: [ Data manipulation ]
   - name: Awesome
-    path: awesome.csv
+    path: awesome.omv
     description: "Ch 11 - Comparing awesomeness of different groups"
     tags: [ Mann-Whitney ]
   - name: Happiness
-    path: happiness.csv
+    path: happiness.omv
     description: "Ch 11 - Student happiness with statistics"
     tags: [ Wilcoxon ]
   - name: Parenthood
-    path: parenthood.csv
+    path: parenthood.omv
     description: "Ch 12 - Sleep and mood data"
     tags: [ correlation, regression ]
   - name: Anscombe
-    path: anscombe.csv
+    path: anscombe.omv
     description: "Ch 12 - Anscombe's Quartet data"
     tags: [ correlation ]
   - name: Broca's aphasia
-    path: broca.csv
+    path: broca.omv
     description: "Ch 13 - Broca's Aphasia data"
     tags: [ One-way repeated measures ANOVA ] 
   - name: ANCOVA 
-    path: ancova.csv
+    path: ancova.omv
     description: "Ch 14 - Analysis of Covariance data" 
     tags: [ ANCOVA ] 
   - name: RTFM
-    path: rtfm.csv
+    path: rtfm.omv
     description: "Ch 14 - Student grades by attendance and reading"
     tags: [ ANOVA ]
   - name: Clinical Trial 2
@@ -115,23 +115,23 @@ datasets:
     description: "Ch 14 - Clinical trial results for binary contrasts"
     tags: [ ANOVA, contrasts ]
   - name: Coffee
-    path: coffee.csv
+    path: coffee.omv
     description: "Ch 14 - Coffee and babbling"
     tags: [ ANOVA, unbalanced ]
   - name: Personality Questionnaire
-    path: bfi_sample.csv
+    path: bfi_sample.omv
     description: "Ch 15 - Personality data sample 1"
     tags: [ EFA, PCA ] 
   - name: Personality Questionnaire
-    path: bfi_sample2.csv
+    path: bfi_sample2.omv
     description: "Ch 15 - Personality data sample 2"
     tags: [ CFA ] 
   - name: Attributional Style Questionnaire
-    path: ASQ.csv
+    path: ASQ.omv
     description: "Ch 15 - Attributional Style data"
     tags: [ MTMM, CFA ] 
   - name: Personality Questionnaire
-    path: bfi_sample3.csv
+    path: bfi_sample3.omv
     description: "Ch 15 - Personality data sample 3"
     tags: [ Reliability analysis ] 
 ...
